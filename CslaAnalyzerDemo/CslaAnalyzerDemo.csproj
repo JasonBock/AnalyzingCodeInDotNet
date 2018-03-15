@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningsAsErrors />
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CSLA-Core" Version="4.6.603" />
+  </ItemGroup>
 
 </Project>
