@@ -3,7 +3,7 @@ using System;
 
 namespace CslaAnalyzerDemo
 {
-	[Serializable]
+	//[Serializable]
 	public sealed class Customer
 		: BusinessBase<Customer>
 	{
