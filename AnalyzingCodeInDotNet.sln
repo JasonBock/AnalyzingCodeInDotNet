@@ -1,13 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZuneBug", "ZuneBug\ZuneBug.csproj", "{D1182C36-FBAB-40F4-8B8C-CEC0AB87ABAD}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingAnalyzers", "UsingAnalyzers\UsingAnalyzers.csproj", "{2ECAF7FA-0C26-49A7-92DD-28D72005D4DC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CslaAnalyzerDemo", "CslaAnalyzerDemo\CslaAnalyzerDemo.csproj", "{6DD94018-D570-44C0-8BEB-70D92255E68D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ADC5BE3B-7F0F-4E7D-B00E-9E30BE8AD384}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +18,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D1182C36-FBAB-40F4-8B8C-CEC0AB87ABAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D1182C36-FBAB-40F4-8B8C-CEC0AB87ABAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D1182C36-FBAB-40F4-8B8C-CEC0AB87ABAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D1182C36-FBAB-40F4-8B8C-CEC0AB87ABAD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2ECAF7FA-0C26-49A7-92DD-28D72005D4DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2ECAF7FA-0C26-49A7-92DD-28D72005D4DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2ECAF7FA-0C26-49A7-92DD-28D72005D4DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
