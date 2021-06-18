@@ -9,6 +9,8 @@ namespace CslaAnalyzerDemo
 	public sealed class Customer
 		: BusinessBase<Customer>
 	{
+		public Customer(Guid id) => this.Id = id;
+
 		public static readonly PropertyInfo<Guid> IdProperty =
 			Customer.RegisterProperty<Guid>(_ => _.Id);
 		public Guid Id

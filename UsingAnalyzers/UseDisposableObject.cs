@@ -1,5 +1,4 @@
 ﻿using System;
-using System.IO;
 
 namespace UsingAnalyzers
 {
@@ -7,6 +6,12 @@ namespace UsingAnalyzers
 	{
 		public static string GetName(Guid id)
 		{
+			// You'd THINK this would raise CA2000 - "Dispose objects before losing scope"
+			// https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2000
+			//
+			// But...it's not. It looks like CA2000 has been disabled, see:
+			// https://github.com/dotnet/roslyn-analyzers/issues/4915
+			// https://github.com/dotnet/roslyn-analyzers/pull/4862
 			var service = new CustomerService();
 			var customer = service.Get(id);
 			return customer.Name;
