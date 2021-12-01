@@ -19,9 +19,9 @@ namespace CslaAnalyzerDemo
 			// CSLA0007 - "Properties that use managed backing fields should only use Get/Set/Read/Load methods and nothing else"
 			// https://github.com/MarimerLLC/csla/blob/main/docs/analyzers/CSLA0007-EvaluatePropertiesForSimplicityAnalyzer.md
 			get
-			{ 
-				var x = this.ReadProperty(Customer.IdProperty); 
-				return x; 
+			{
+				var x = this.ReadProperty(Customer.IdProperty);
+				return x;
 			}
 			set => this.LoadProperty(Customer.IdProperty, value);
 		}

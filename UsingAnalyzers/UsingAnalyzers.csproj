@@ -1,29 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <!--
-    Only include this property setting if:
-    * You want to use the analyzers in Microsoft.CodeAnalysis.NetAnalyzers,
-    * you're using the SDK-style project format, and
-    * you're targeting .NET 3.1 or previous.
-    <EnableNETAnalyzers>true</EnableNETAnalyzers>
-    -->
-    <TargetFramework>net5.0</TargetFramework>
-    <LangVersion>latest</LangVersion>
-    <Nullable>enable</Nullable>
-    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-  </PropertyGroup>
-  <ItemGroup>
-    <!-- 
-    This is the NuGet package that is automatically included
-    for project targeting .NET 5.0 and beyond. 
-    -->
-    <!--<PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="5.0.3">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>-->
-    <PackageReference Include="SonarAnalyzer.CSharp" Version="8.24.0.32949">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-  </ItemGroup>
+	<ItemGroup>
+		<!-- 
+		This is the NuGet package that is automatically included
+		for project targeting .NET 5.0 and beyond. 
+		-->
+		<!--<PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="5.0.3">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>-->
+		<PackageReference Include="SonarAnalyzer.CSharp" Version="8.24.0.32949">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
 </Project>
