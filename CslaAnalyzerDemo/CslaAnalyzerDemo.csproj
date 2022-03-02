@@ -1,5 +1,5 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<ItemGroup>
-		<PackageReference Include="Csla" Version="5.4.2" />
+		<PackageReference Include="Csla" Version="5.5.2" />
 	</ItemGroup>
 </Project>
