@@ -31,5 +31,9 @@ dotnet_style_qualification_for_field = true:error
 dotnet_style_qualification_for_method = true:error
 dotnet_style_qualification_for_property = true:error
 
+# CA1014: Mark assemblies with CLSCompliantAttribute
+# https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1014
+dotnet_diagnostic.CA1014.severity=none
+
 [*.xml]
 indent_style = tab

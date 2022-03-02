@@ -1,6 +1,6 @@
 <Project>
 	<PropertyGroup>
-		<AnalysisMode>AllEnabledByDefault</AnalysisMode>
+		<AnalysisMode>all</AnalysisMode>
 		<Authors>Jason Bock</Authors>
 		<!--
 		Only include this property setting if:
