@@ -1,2 +1,2 @@
 # AnalyzingCodeInDotNet
-Demo code for "Analyzing Code in .NET" talk
+Demo code for my "Analyzing Code in .NET" presentation
