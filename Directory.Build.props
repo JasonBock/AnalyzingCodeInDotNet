@@ -1,6 +1,11 @@
 <Project>
 	<PropertyGroup>
-		<AnalysisMode>all</AnalysisMode>
+		<!--
+		In .NET 6, the <AnalysisMode> values were expanded:
+		https://docs.microsoft.com/en-us/dotnet/core/project-sdk/msbuild-props#analysismode
+		My preference is "All"
+		-->
+		<AnalysisMode>All</AnalysisMode>
 		<Authors>Jason Bock</Authors>
 		<!--
 		Only include this property setting if:
@@ -10,7 +15,11 @@
 		<EnableNETAnalyzers>true</EnableNETAnalyzers>
 		-->
 		<LangVersion>latest</LangVersion>
+		<!--
+		Starting with .NET 6, <Nullable> is now enabled by default:
+		https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/nullable-reference-types#setting-the-nullable-context
 		<Nullable>enable</Nullable>
+		-->
 		<TargetFramework>net6.0</TargetFramework>
 		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
 		<Version>1.0.0</Version>

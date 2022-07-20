@@ -11,7 +11,7 @@
 		<!--
 		This package is from Sonar that checks for other issues.
 		-->
-		<!--<PackageReference Include="SonarAnalyzer.CSharp" Version="8.35.0.42613">
+		<!--<PackageReference Include="SonarAnalyzer.CSharp" Version="8.42.0.51121">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>-->
