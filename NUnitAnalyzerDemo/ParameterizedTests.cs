@@ -2,7 +2,7 @@
 
 namespace NUnitAnalyzerDemo;
 
-public static class ParameterizedTests
+internal static class ParameterizedTests
 {
 	[TestCase(3, 4, 7)]
 	public static void Add(int x, int y, int expectedResult) => 
